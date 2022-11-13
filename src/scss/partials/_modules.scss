@@ -1,6 +1,9 @@
 @include aoa-bg-series($bg__init,$classes_init);
 
-.about,.products{
+.about{
+    &-s2{
+        background-position-x: center!important;
+    }
     &-s3{
         *{
             color: #fff !important;
@@ -10,7 +13,29 @@
         background-blend-mode: multiply!important;
     }
 }
-
+.contact{
+    &-s1{
+        background-position-x: center!important;
+    }
+}
+.index{
+    &-s1{
+        background-position-x: center!important;
+    }
+}
+.products{
+    &-s1{
+        background-position-x: center!important;
+    }
+    &-s3{
+        *{
+            color: #fff !important;
+            text-shadow: $text__shadow;
+        }
+        background-color: #666!important;
+        background-blend-mode: multiply!important;
+    }
+}
 .text{
     &-shadow{
         text-shadow: $text__shadow;
